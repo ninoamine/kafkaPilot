@@ -1,0 +1,7 @@
+apiVersion: kafkapilot.io/v1alpha1
+kind: Topic
+metadata:
+  name: toto
+spec:
+  replications: 2
+  partitions: 2
